@@ -1,0 +1,83 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+   background: 
+   linear-gradient(90deg, rgba(0,0,0,1) 0, rgba(0,0,0,1) 300px, rgba(255,255,255,0) 600px),
+   url(images/souleatercast.jpg) right top no-repeat,
+   black;
+   padding: 2em;
+}
+
+.lead {
+    color: #fff;
+    width: 300px;
+}
+
+h1 img {
+    max-width: 100%;
+}
+
+header button {
+    background-color: #c81519;
+    background-image: url("images/playbutton.png") white;
+    background-repeat: no-repeat;
+    background-position: center left;
+    border: solid 1px #fff;
+    color: #fff;
+    padding: 10px;
+    padding-left: 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav {
+    background-color: black;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+li {
+    display: inline;
+    margin-left: 2em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.col-left {
+    width: 48%;
+    float: left;
+}
+.col-right {
+    width: 48%;
+    float: right;
+}
+footer {
+    float: left;
+}
+
+.card{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+  }
+  
+  .card{
+    padding:2em;
+    margin:1em;
+    flex:0 0 224px;
+  }
