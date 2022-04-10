@@ -1,6 +1,6 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
-}
+   }
 
 #wrapper {
     max-width: 1200px;
@@ -26,7 +26,7 @@ h1 img {
 
 header button {
     background-color: #c81519;
-    background-image: url("images/playbutton.png") white;
+    background-image: url("images/playbutton.png");
     background-repeat: no-repeat;
     background-position: center left;
     border: solid 1px #fff;
@@ -39,9 +39,18 @@ header button {
 }
 
 nav {
-    background-color: black;
+    background-color: crimson;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #c81519;
+}
+
+nav a:visited {
+    color: #c81519;
 }
 
 li {
@@ -70,14 +79,15 @@ footer {
     float: left;
 }
 
-.card{
+.episodes-container{
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
+    justify-content: center;
   }
   
   .card{
-    padding:2em;
+    
     margin:1em;
     flex:0 0 224px;
   }
