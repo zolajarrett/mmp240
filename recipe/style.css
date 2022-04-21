@@ -1,7 +1,7 @@
 h1{
     font-family:'Roboto', sans-serif;
     font-style: italic;
-    font-weight: 700, bolder;
+    font-weight: 700;
     font-size: 41px;
     margin-bottom: 1rem;
     margin-top: 1rem;
@@ -9,7 +9,7 @@ h1{
 
 h2{
     font-family:'Roboto', sans-serif;
-    font-weight: 400, bold;
+    font-weight: 400;
     margin-bottom: 1rem;
     margin-top: 1rem;
 }

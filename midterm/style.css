@@ -47,6 +47,7 @@ header button {
 main {
     margin-bottom: 3em;
     overflow: auto;
+    color: #fff;
 }
 
 h2 {
@@ -59,11 +60,11 @@ h3 {
 }
 
 .show-info h3 {
-    color: #000;
+    color: #fff;
 }
 
 .tv-14 {
-    border: solid 1px #000;
+    border: solid 1px #fff;
     padding: 0 3px;
     font-size: smaller;
     font-family: 'Times New Roman', Times, serif;
@@ -99,10 +100,6 @@ nav a:hover {
     color: white;
 }
 
-nav a:visited {
-    color: rgba(245,161,3);
-}
-
 nav a:hover {
     text-decoration: underline;
     color: rgb(245,161,3)
@@ -131,7 +128,7 @@ footer {
       width: 100%;
   }
   
-  .episodes h2, h3{
+  .episodes {
       color: white;
   }
 
